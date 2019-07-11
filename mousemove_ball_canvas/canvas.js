@@ -3,37 +3,6 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const c = canvas.getContext('2d');
-// let img = new Image();
-// img.src= canvas.toDataURL('image/png');
-
-// console.log(img.src)
-// // rectangle
-// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
-// c.fillRect(100, 100, 100, 100); // 绘制矩形
-
-// // line
-// c.beginPath();
-// c.moveTo(50, 300);
-// c.lineTo(300,100);
-// c.lineTo(400, 300);
-// c.strokeStyle = "#fa34a3";
-// c.stroke();
-
-// // arc / circle
-// c.beginPath();
-// c.arc(300, 300, 30, 0, Math.PI * 2, false);
-// c.strokeStyle = "blue";
-// c.stroke();
-
-// for (let i = 0; i < 200; i++) {
-// 	const x = Math.random() * window.innerWidth;
-// 	const y = Math.random() * window.innerHeight;
-// 	const color = `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, ${Math.random()})`;
-// 	c.beginPath();
-// 	c.arc(x, y, 30, 0, Math.PI * 2, false);
-// 	c.strokeStyle = color;
-// 	c.stroke();
-// }
 
 // moving circle
 let mouse = {
@@ -115,3 +84,35 @@ function animate() {
 }
 
 animate();
+
+// let img = new Image();
+// img.src= canvas.toDataURL('image/png');
+
+// console.log(img.src)
+// // rectangle
+// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
+// c.fillRect(100, 100, 100, 100); // 绘制矩形
+
+// // line
+// c.beginPath();
+// c.moveTo(50, 300);
+// c.lineTo(300,100);
+// c.lineTo(400, 300);
+// c.strokeStyle = "#fa34a3";
+// c.stroke();
+
+// // arc / circle
+// c.beginPath();
+// c.arc(300, 300, 30, 0, Math.PI * 2, false);
+// c.strokeStyle = "blue";
+// c.stroke();
+
+// for (let i = 0; i < 200; i++) {
+// 	const x = Math.random() * window.innerWidth;
+// 	const y = Math.random() * window.innerHeight;
+// 	const color = `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, ${Math.random()})`;
+// 	c.beginPath();
+// 	c.arc(x, y, 30, 0, Math.PI * 2, false);
+// 	c.strokeStyle = color;
+// 	c.stroke();
+// }
